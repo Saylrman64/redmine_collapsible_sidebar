@@ -76,7 +76,7 @@
       main.toggleClass('visible-sidebar', true);
     } // draw the toggle button once the DOM is complete
 
-    $(document).ready(setupToggleButton);
+    $(setupToggleButton);
   };
 })(jQuery);
 
